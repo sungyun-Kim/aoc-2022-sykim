@@ -5,10 +5,10 @@ import java.security.MessageDigest
 /**
  * Reads lines from the given input txt file.
  */
-fun readInput(name: String) = File("src", "$name.txt")
+fun readInput(name: String) = File("src", "$name")
     .readLines()
 
-fun readInputRaw(name: String) = File("src", "$name.txt")
+fun readInputRaw(name: String) = File("src", "$name")
     .readText()
 
 /**

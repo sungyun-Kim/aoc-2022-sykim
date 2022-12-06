@@ -27,12 +27,14 @@ fun main() {
 
     // test if implementation meets criteria from the description, like:
 
-    val testInput = readInputRaw("Day01_test")
-    val input = readInputRaw("Day01")
+    val testInput = readInputRaw("data_test")
+    val input = readInputRaw("data")
 
     check(part1(testInput) == 24000)
-    check(part2(testInput) == 45000)
 
     println(part1(input))
+
+    check(part2(testInput) == 45000)
+
     println(part2(input))
 }
